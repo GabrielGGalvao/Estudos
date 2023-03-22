@@ -3,7 +3,7 @@
 
 int main()
 {
-  Calculadora calculador;
+  Calculadora calculadora;
 
   double num1, num2;
   char op;
