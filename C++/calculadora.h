@@ -1,7 +1,7 @@
 class Calculadora
 {
   private:
-    double resultado;
+    double resultad;
   
   public:
     Calculadora();
