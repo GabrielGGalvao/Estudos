@@ -4,7 +4,7 @@ x = 5; // reatribui o valor
 console.log(x); // resultado: 5
 
 /*var: Pode ser reatribuída e redeclarada em qualquer lugar dentro do escopo em que foi definida.
-Se for declarada fora de uma função, será global. Exemplo*/
+Se for declarada fora de uma função, será global. Exemplo:*/
 var y = 2;
 {
    var y = 4;// reatribui e redefine a variável
