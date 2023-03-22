@@ -1,6 +1,6 @@
 #include "calculadora.h"
 
-Calculadora::calculadora()
+Calculadora::Calculadora()
 {
   resultado = 0.0;
 }
