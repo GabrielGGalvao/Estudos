@@ -5,58 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <script type="text/javascript">
-        function somar()
-        {
-            var fNum = document.getElementById("num1")
-            var sNum = document.getElementById("num2")
-            var resultado = parseInt(fNum.value) + parseInt(sNum.value);
-            document.getElementById("resultado").innerHTML = resultado;
-        }
-        function subtracao()
-        {
-            var fNum = document.getElementById("num1")
-            var sNum = document.getElementById("num2")
-            var resultado = parseInt(fNum.value) - parseInt(sNum.value);
-            document.getElementById("resultado").innerHTML = resultado;
-        }
-        function multiplicacao()
-        {
-            var fNum = document.getElementById("num1")
-            var sNum = document.getElementById("num2")
-            var resultado = parseInt(fNum.value) * parseInt(sNum.value);
-            document.getElementById("resultado").innerHTML = resultado;
-        }
-        function divisao()
-        {
-            var fNum = document.getElementById("num1")
-            var sNum = document.getElementById("num2")
-            var resultado = parseInt(fNum.value) / parseInt(sNum.value);
-            document.getElementById("resultado").innerHTML = resultado;
-        }
-        function calcular()
-        {
-            var operacao = document.getElementById("operacao").value;
-            switch (operacao) {
-                case '+':
-                    somar()
-                    break;
-                case '-':
-                    subtracao()
-                    break;
-                case '×':
-                    multiplicacao()
-                    break;
-                case '÷':
-                    divisao()
-                    break;
-            
-                default:
-                    alert("Operação invalida")
-                    break;
-            }
-        }
-    </script>
 </head>
 <body>
     <label for="num1">Digite o primeiro número:</label>
@@ -73,7 +21,9 @@
     <input id="num2" type="text">
 
     <button onclick="calcular()">Calcular</button>
-    <label for="resultado">Resultado:</label>
-    <span id="resultado"></span>
+    
+    <label for="resultado" id="resultado">Resultado:</label>
+
+    <script src="script.js"></script>
 </body>
 </html>
