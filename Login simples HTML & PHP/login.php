@@ -1,12 +1,12 @@
 <?php
-    $user = $_POST["user"];
-    $pass = $_POST["pass"];
-    if($user == "Gabriel" && $pass == "123")
+$user = $_POST["user"];
+$pass = $_POST["pass"];
+    if ($user == "Gabriel" && $pass == "123")
     {
-        echo <center>"Login efetuado com sucesso"</center>;
+    echo "<center><h1>Login efetuado com sucesso</h1></center>";
     }
-    else
+   else
     {
-        echo <center>"Login e/ou senha incorretos"</center>;
+    echo "<center><h1>Login e/ou senha incorretos</h1></center>";
     }
 ?>
