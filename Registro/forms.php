@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$termos = isset($_POST['termos']) ? htmlspecialchars($_POST['termos'], ENT_QUOTES) : '';
 
 	if (empty($nome) || empty($email) || empty($senha) || empty($cSenha) || empty($termos)) {
-		echo "<script>window.alert('Preencha todos os campos.')</script>";
+		echo "<script>window.alert('Preencha todos os campos.');window.history.go(-1)</script>";
 		exit();
 	}
 
