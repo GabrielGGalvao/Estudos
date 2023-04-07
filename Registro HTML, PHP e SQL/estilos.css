@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: silver;
+}
+
+input.nome {
+    width: 178px;
+}
+
+input.email {
+    width: 212px;
+}
+
+input.senha {
+    width: 250px;
+}
+
+input.cSenha {
+    width: 180px;
+}
